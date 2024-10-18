@@ -1,0 +1,86 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Turquoise Blocks and Tasks</title>  
+    <style>  
+        body {  
+            display: flex;  
+            flex-direction: column; /* Изменяем направление на столбец */   
+            align-items: center;  
+            height: auto;  
+            background-color: #f0f0f0;  
+            margin: 0;  
+            font-family: Arial, sans-serif; /* Шрифт для текста */  
+        }  
+        .block {  
+            background-color: #40e0d0; /* Бирюзовый цвет */  
+            color: white; /* Цвет текста */  
+            padding: 20px;  
+            width: 200px;  
+            text-align: center;  
+            border-radius: 10px;  
+            font-size: 18px;  
+            margin: 10px; /* Отступ между блоками */  
+        }  
+        hr {  
+            width: 80%; /* Устанавливаем ширину линий */  
+            margin: 20px auto; /* Центрируем линии */  
+        }  
+    </style>  
+</head>  
+<body>  
+    <hr>  
+
+    <!-- 1 task -->  
+    <h1>Header 1</h1>  
+    <h2>Header 2</h2>  
+    <p>Task to style <span>a separate section</span> of text </p>  
+
+    <hr>  
+
+    <!-- 2 task -->  
+    <div>  
+        <p>Paragraph 1</p>  
+    </div>  
+    <p>Paragraph 2</p>  
+
+    <hr>  
+
+    <!-- 3 task -->  
+    <ul>  
+        <li>  
+            <p><span>Span 1</span></p>  
+        </li>  
+        <li>  
+            <span>Span 2</span>  
+        </li>  
+    </ul>  
+
+    <hr>  
+
+    <!-- 4 task -->  
+    <ol>  
+        <li>Li 1</li>  
+        <li>Li 2</li>  
+        <li>Li 3</li>  
+        <li>Li 4</li>  
+    </ol>  
+
+    <h3>Header 3</h3>  
+    <h4>Header 4</h4>  
+    <h5>Header 5</h5>  
+    <h6>Header 6</h6>    
+
+    <hr>  
+
+    <!-- 5 task -->  
+    <div style="display: flex; justify-content: space-around; align-items: center; height: 100vh; width: 100%;">  
+        <div class="block" style="background-color:lime;">Блок 1</div>  
+        <div class="block" style="border-radius: 50px;">Блок 2</div>  
+        <div class="block" block_border="4px solid blue;">Блок 3</div>  
+        <div class="block">Блок 4</div>  
+    </div>  
+</body>  
+</html>  
